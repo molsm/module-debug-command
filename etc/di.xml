@@ -4,7 +4,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="debug_command" xsi:type="object">MolsM\DebugCommand\Console\Command\DebugCommand</item>
+                <item name="debug_command" xsi:type="object">MolsM\Playground\Console\Command\DebugCommand</item>
             </argument>
         </arguments>
     </type>
