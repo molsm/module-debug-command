@@ -25,6 +25,6 @@ class DatabaseSeedCommand extends Command
 
     public function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->customerSeed->setRecords(1)->place();
+        $this->customerSeed->setRecords(107000)->place();
     }
 }
