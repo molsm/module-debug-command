@@ -5,6 +5,7 @@
         <arguments>
             <argument name="commands" xsi:type="array">
                 <item name="debug_command" xsi:type="object">MolsM\Playground\Console\Command\DebugCommand</item>
+                <item name="database_seed_command" xsi:type="object">MolsM\Playground\Console\Command\DatabaseSeedCommand</item>
             </argument>
         </arguments>
     </type>
